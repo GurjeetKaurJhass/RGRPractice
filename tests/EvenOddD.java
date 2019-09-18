@@ -20,7 +20,7 @@ public class EvenOddD {
 		public void EvenOdd()
 		{
 			EvenO d= new EvenO();
-			 Boolean ActualOutput=d.isEven(2);
+			 Boolean ActualOutput=d.isEven(-1);
 			 assertEquals(true,ActualOutput);
 		}
 		

@@ -4,6 +4,9 @@ public class EvenO {
 	
 	public boolean isEven(int n) {
 		
+		if(n<1) {
+			return true;
+		}
 		
 		if	(n%2==0)
 			{
@@ -13,5 +16,6 @@ public class EvenO {
 		return false;
 		
 	}
+		
 
 }
