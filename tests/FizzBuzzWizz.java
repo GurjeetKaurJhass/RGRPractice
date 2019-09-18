@@ -20,8 +20,6 @@ public class FizzBuzzWizz {
 		 String ActualOutput=d.buzzz(3);
 		 assertEquals("fizz",ActualOutput);
 		
-		
-		
 	}
 
 }

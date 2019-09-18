@@ -6,7 +6,7 @@ public class FizzBuzzWhizz {
 	{
 		
 
-		return "";
+		return "fizz";
 		
 		
 	}
