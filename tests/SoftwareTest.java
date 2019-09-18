@@ -15,11 +15,12 @@ public class SoftwareTest {
 	}
 
 	@Test
-	public void test() {
+	public void test()
+	{
 		
 		SoftwareSales s=new SoftwareSales();
-		double finalPrice=s.calculateQuantity(2);
-		assertEquals(198,finalPrice,0);
+		double finalPrice=s.calculateQuantity(30);
+		assertEquals(2079,finalPrice,0);
 		
 	}
 

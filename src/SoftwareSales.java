@@ -10,16 +10,26 @@ public class SoftwareSales {
         if (q >= 10 && q <= 19) {
 
 			discount = subTotal * 0.20;
-		}
 		
 		double finalTotal = subTotal - discount;
 		return finalTotal;
+        }
+	
+        
+        
+	   else if (q >= 20 && q <= 49) {
+
+		discount = subTotal * 0.30;
+	    double finalTotal = subTotal - discount;
+		return finalTotal;
 		
 	}
+		return 99.0*q;
+	
+	
 	
 
-		
-	}
+	}}
 	
-	
+
 
