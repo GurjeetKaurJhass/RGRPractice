@@ -19,7 +19,7 @@ public class SoftwareTest {
 	{
 		
 		SoftwareSales s=new SoftwareSales();
-		double finalPrice=s.calculateQuantity(50);
+		double finalPrice=s.calculateQuantity(60);
 		assertEquals(3564,finalPrice,0);
 		
 	}
