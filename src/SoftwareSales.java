@@ -3,7 +3,7 @@ public class SoftwareSales {
 
 	public double calculateQuantity(int q)
 	{
-		return 0.0;
+		return 99.0;
 		
 	}
 	
