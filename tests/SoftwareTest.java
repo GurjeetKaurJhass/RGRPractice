@@ -18,8 +18,8 @@ public class SoftwareTest {
 	public void test() {
 		
 		SoftwareSales s=new SoftwareSales();
-		double finalPrice=s.calculateQuantity(1);
-		assertEquals(99,finalPrice,0);
+		double finalPrice=s.calculateQuantity(2);
+		assertEquals(198,finalPrice,0);
 		
 	}
 
