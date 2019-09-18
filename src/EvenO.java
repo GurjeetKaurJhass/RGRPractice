@@ -12,7 +12,6 @@ public class EvenO {
 				
 			}
 		
-	
 	else 
 	{
 		return false;

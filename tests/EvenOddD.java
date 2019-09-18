@@ -19,8 +19,8 @@ public class EvenOddD {
 		public void EvenOdd()
 		{
 			 EvenO d= new EvenO();
-			 Boolean ActualOutput=d.isEven(4);
-			 assertEquals(true,ActualOutput);
+			 Boolean ActualOutput=d.isEven(0);
+			 assertEquals(false,ActualOutput);
 		}
 		
 	}
