@@ -19,7 +19,7 @@ public class SoftwareTest {
 		fail("Not yet implemented");
 		SoftwareSales s=new SoftwareSales();
 		double finalPrice=s.calculateQuantity(1);
-		
+		assertEquals(99,finalPrice,0);
 		
 	}
 
