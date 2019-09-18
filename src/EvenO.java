@@ -3,7 +3,14 @@ public class EvenO {
 
 	
 	public boolean isEven(int n) {
-		return true;
+		
+		
+		if	(n%2==0)
+			{
+				return true;
+				
+			}
+		return false;
 		
 	}
 
