@@ -17,6 +17,10 @@ public class SoftwareTest {
 	@Test
 	public void test() {
 		fail("Not yet implemented");
+		SoftwareSales s=new SoftwareSales();
+		double finalPrice=s.calculateQuantity(1);
+		
+		
 	}
 
 }
