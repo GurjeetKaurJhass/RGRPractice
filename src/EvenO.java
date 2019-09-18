@@ -4,10 +4,8 @@ public class EvenO {
 	
 	public boolean isEven(int n) {
 		
-		if(n<1) {
-			return true;
-		}
-		
+	
+	{
 		if	(n%2==0)
 			{
 				return true;
@@ -18,4 +16,4 @@ public class EvenO {
 	}
 		
 
-}
+}}
