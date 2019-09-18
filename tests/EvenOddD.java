@@ -13,11 +13,12 @@ public class EvenOddD {
 	@After
 	public void tearDown() throws Exception {
 	}
-//R2 if n is even return true
+   //R2 if n is even return true
+	
 	@Test
 		public void EvenOdd()
 		{
-			EvenO d= new EvenO();
+			 EvenO d= new EvenO();
 			 Boolean ActualOutput=d.isEven(4);
 			 assertEquals(true,ActualOutput);
 		}
