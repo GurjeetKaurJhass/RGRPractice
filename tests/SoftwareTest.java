@@ -22,6 +22,7 @@ public class SoftwareTest {
 		double finalPrice=s.calculateQuantity(60);
 		assertEquals(3564,finalPrice,0);
 		
+		
 	}
 
 }

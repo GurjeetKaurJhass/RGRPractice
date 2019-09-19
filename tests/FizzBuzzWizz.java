@@ -17,8 +17,8 @@ public class FizzBuzzWizz {
 	@Test
 	public void test() {
 		FizzBuzzWhizz d= new FizzBuzzWhizz();
-		String ActualOutput=d.buzzz(15);
-		assertEquals("fizzbuzz",ActualOutput);
+		boolean ActualOutput=d.checkPrime(11);
+		assertEquals(true,ActualOutput);
 		
 	}
 
