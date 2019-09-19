@@ -17,8 +17,8 @@ public class FizzBuzzWizz {
 	@Test
 	public void test() {
 		FizzBuzzWhizz d= new FizzBuzzWhizz();
-		 String ActualOutput=d.buzzz(15);
-		 assertEquals("fizzbuzz",ActualOutput);
+		String ActualOutput=d.buzzz(15);
+		assertEquals("fizzbuzz",ActualOutput);
 		
 	}
 
