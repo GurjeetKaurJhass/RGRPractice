@@ -10,7 +10,6 @@ public class FizzBuzzWhizz {
 		return "fizzbuzz";
         }
 		
-		
 		return null;
 		
 	
